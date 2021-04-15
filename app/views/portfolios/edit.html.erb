@@ -1,6 +1,6 @@
-<h1>Create a new Portfolio Item</h1>
+<h1>Edit his Portfolio Item</h1>
 
-<%= form_with(model: portfolio_item) do |form| %>
+<%= form_with(model: @portfolio_item) do |form| %>
   <div class="field">
     <%= form.label :title %>
     <%= form.text_field :title %>
